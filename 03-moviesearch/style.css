@@ -1,0 +1,18 @@
+#imgListWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+#imgListWrapper div {
+  margin: 15px;
+  border: none;
+  border-radius: 15px;
+}
+#imgListWrapper img {
+  height: 250px;
+  width: 250px;
+  object-fit: fill;
+  border-radius: 13px;
+}

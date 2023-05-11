@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Library</title>
+  </head>
+  <body class="bg-dark">
+    <div
+      class="input-group container-sm text-light"
+      style="display: flex; justify-content: center"
+    >
+      <form action="" class="text-center" id="formWrapper">
+        <h1 class="m-5 text-center">Simplest Search Page For Movie Infos</h1>
+        <input
+          id="searchInput"
+          type="text"
+          class="form-control"
+          placeholder="Ask me movie!"
+          aria-label="Ask me movie!"
+          aria-describedby="button-addon2"
+        />
+
+        <div class="buttons">
+          <button
+            class="btn text-light mt-3"
+            type="submit"
+            id="searchButton"
+            style="background-color: green"
+          >
+            Search
+          </button>
+          <button
+            class="btn text-light mt-3 ms-5"
+            type="reset"
+            id="clearButton"
+            style="background-color: red"
+          >
+            Clear
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container-md" id="imgListWrapper"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
